@@ -8,8 +8,11 @@ This is the earlier version of [AI_style_bot_2](https://github.com/Amrittr/AI_st
 
 ```bash
 npm install
+cp .env.example .env   # then add your Gemini API key
 npm start
 ```
+
+On Vercel, set `GEMINI_API_KEY` in the project's Environment Variables.
 
 Then open http://localhost:3000.
 
